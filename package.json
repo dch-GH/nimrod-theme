@@ -1,0 +1,25 @@
+{
+  "name": "nimrod-theme",
+  "displayName": "nimrod",
+  "description": "A theme made by a colorblind person, it's not good!",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/dch-GH/nimrod-theme.git"
+	},
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nimrod",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Nimrod-color-theme.json"
+      }
+    ]
+  }
+}
